@@ -1,7 +1,7 @@
 {
-  "name": "google-play-scraper",
-  "version": "10.0.0",
-  "description": "scrapes app data from google play store",
+  "name": "@netsocks/googleplay_scraper",
+  "version": "1.0.0",
+  "description": "scrapes app data from google play store. Forked from facundoolano/google-play-scraper",
   "type": "module",
   "exports": "./index.js",
   "scripts": {
@@ -10,19 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/facundoolano/google-play-scraper"
+    "url": "https://github.com/netsocks/netsocks-npm-googleplay_scraper"
   },
   "keywords": [
     "google",
     "play",
-    "scraper"
+    "scraper",
+    "playstore"
   ],
-  "author": "Facundo Olano",
+  "authors": [
+    "Facundo Olano",
+    "Netsocks.io"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/facundoolano/google-play-scraper/issues"
+    "url": "https://github.com/netsocks/netsocks-npm-googleplay_scraper/issues"
   },
-  "homepage": "https://github.com/facundoolano/google-play-scraper",
+  "homepage": "https://github.com/netsocks/netsocks-npm-googleplay_scraper",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "debug": "^3.1.0",

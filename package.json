@@ -1,6 +1,6 @@
 {
   "name": "@netsocks/googleplay_scraper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "scrapes app data from google play store. Forked from facundoolano/google-play-scraper",
   "type": "module",
   "exports": "./index.js",

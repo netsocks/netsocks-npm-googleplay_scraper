@@ -71,6 +71,10 @@ Results:
   developerEmail: 'translate-android-support@google.com',
   developerWebsite: 'http://support.google.com/translate',
   developerAddress: '1600 Amphitheatre Parkway, Mountain View 94043',
+  developerLegalName: undefined,
+  developerLegalEmail: undefined,
+  developerLegalAddress: undefined,
+  developerLegalPhoneNumber: undefined,
   privacyPolicy: 'http://www.google.com/policies/privacy/',
   developerInternalID: '5700313618786177705',
   genre: 'Tools',
@@ -427,6 +431,7 @@ Returns the list of permissions an app has access to.
 
 * `appId`: the Google Play id of the application to get permissions for.
 * `lang` (optional, defaults to `'en'`): the two letter language code in which to fetch the permissions.
+* `country` (optional, defaults to `'us'`): the two letter country code in which to fetch the permissions.
 * `short` (optional, defaults to `false`): if `true`, the permission names will be returned instead of
 permission/description objects.
 

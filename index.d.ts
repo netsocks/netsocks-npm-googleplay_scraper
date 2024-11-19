@@ -129,7 +129,10 @@ export interface IAppItemFullDetail extends IAppItem {
   developerEmail: string
   developerWebsite: string
   developerAddress: string
-  developerPhone: string
+  developerLegalName: string
+  developerLegalEmail: string
+  developerLegalAddress: string
+  developerLegalPhoneNumber: string
   genre: string
   genreId: string
   categories: Array<{

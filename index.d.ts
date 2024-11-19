@@ -353,3 +353,6 @@ export const permissions: IFnPermissions
 export const categories: IFnCategories
 export const datasafety : IFnDataSafety
 export const memoized: IFnMemoized
+
+import index from './index'
+export default index as IMemoizedResult

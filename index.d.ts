@@ -1,4 +1,5 @@
 // constants
+declare module '@netsocks/googleplay_scraper' {
 
 export enum category {
   APPLICATION = 'APPLICATION',
@@ -354,5 +355,4 @@ export const categories: IFnCategories
 export const datasafety : IFnDataSafety
 export const memoized: IFnMemoized
 
-import index from './index'
-export default index as IMemoizedResult
+}

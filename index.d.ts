@@ -201,6 +201,7 @@ export interface IFnAppOptions extends IOptions {
   appId: string
   lang?: string
   country?: string
+  requestOptions?: any
 }
 
 export interface IFnApp {
@@ -298,6 +299,7 @@ export interface IFnPermissionsOptions extends IOptions {
   appId: string
   lang?: string
   short?: string
+  requestOptions?: any
 }
 
 export interface IFnPermissions {
